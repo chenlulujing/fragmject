@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.example.miaow</groupId>
+  <artifactId>plugin</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20230129.083601</timestamp>
+      <buildNumber>18</buildNumber>
+    </snapshot>
+    <lastUpdated>20230129083601</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.0-20230129.083601-18</value>
+        <updated>20230129083601</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.0-20230129.083601-18</value>
+        <updated>20230129083601</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.0-20230129.083601-18</value>
+        <updated>20230129083601</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

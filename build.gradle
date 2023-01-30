@@ -5,7 +5,7 @@ buildscript {
         kotlin_version = '1.7.21'
     }
     dependencies {
-//        classpath 'com.example.miaow:plugin:1.0.0'
+        classpath 'com.example.miaow:plugin:1.0.0-SNAPSHOT'
     }
 }
 

@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.miaow",
+    "module": "plugin",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.0.0-SNAPSHOT.jar",
+          "url": "plugin-1.0.0-SNAPSHOT.jar",
+          "size": 34977,
+          "sha512": "49c7f90dd4fc96c1bc97ee4bffd3f6e81209ac6f73ee65f980e35a65b7181d271a8c7e2e976a658e5bd48b4ae6d281df3ed663b6cf7ebfee4ee70a8775aa4da7",
+          "sha256": "b76ce82cfb46ff0f9d6c62b6162b2fd8de89c09ba4d8ed069c1ab24dd424c680",
+          "sha1": "d718b1057f20e196ba8d295391ac7b3755219186",
+          "md5": "c967a5e0a3f85d56238afc55994f849f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-analysis",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-tree",
+          "version": {
+            "requires": "9.3"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.3.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "plugin-1.0.0-SNAPSHOT.jar",
+          "url": "plugin-1.0.0-SNAPSHOT.jar",
+          "size": 34977,
+          "sha512": "49c7f90dd4fc96c1bc97ee4bffd3f6e81209ac6f73ee65f980e35a65b7181d271a8c7e2e976a658e5bd48b4ae6d281df3ed663b6cf7ebfee4ee70a8775aa4da7",
+          "sha256": "b76ce82cfb46ff0f9d6c62b6162b2fd8de89c09ba4d8ed069c1ab24dd424c680",
+          "sha1": "d718b1057f20e196ba8d295391ac7b3755219186",
+          "md5": "c967a5e0a3f85d56238afc55994f849f"
+        }
+      ]
+    }
+  ]
+}

@@ -23,14 +23,20 @@ publishing {
         mavenJava(MavenPublication) {
             groupId = 'com.example.miaow'
             artifactId = 'plugin'
-            version = '1.0.0'
+            version = '1.0.0-SNAPSHOT'
 
             from components.java
         }
     }
     repositories {
         maven {
-            url  = parent.layout.projectDirectory.dir('repo')
+//            url  = parent.layout.projectDirectory.dir('repo')
+            url("http://nexusnas.accessible.mobi:90/repository/accessible/")
+            allowInsecureProtocol true
+            credentials {
+                username("admin")
+                password("san123456")
+            }
         }
     }
 }

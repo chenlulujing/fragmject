@@ -19,6 +19,14 @@ pluginManagement {
         maven {
             url uri('repo')
         }
+        maven {
+            url 'http://nexusnas.accessible.mobi:90/repository/accessible/'
+            allowInsecureProtocol true
+            credentials {
+                username = 'admin'
+                password = 'san123456'
+            }
+        }
     }
 }
 dependencyResolutionManagement {

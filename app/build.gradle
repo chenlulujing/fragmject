@@ -4,7 +4,7 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'kotlin-parcelize'
-//    id 'miaow'
+    id 'miaow'
 }
 
 android {
@@ -117,7 +117,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion  = compose_version
+        kotlinCompilerExtensionVersion = compose_version
     }
 
     packagingOptions {
